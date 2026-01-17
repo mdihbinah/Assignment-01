@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* For font */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* shared style  */
+.btn{
+    padding: 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:hover{
+    border: 2px solid #30b868;
+    background: lightblue;
+    color: #30b868;
+}
+/* main style */
+nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    border: #30B868 solid 2px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    opacity: 90%;
+    font-size: 16px;
+    line-height: 152%;
+}
