@@ -150,3 +150,38 @@ nav ul{
     color: #627382;
 }
 
+
+.brain{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    margin: 0px auto;
+    gap: 60px;
+    align-items: center;
+}
+.brain bi{
+    width: 600px;
+    height: 600px;
+}
+.brain-text h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain ul{
+    list-style: none;
+}
