@@ -11,6 +11,7 @@
 /* shared style  */
 .btn{
     padding: 16px;
+    color: white;
     background-color: #30B868;
     border-radius: 4px;
     border: none;
@@ -24,6 +25,7 @@
     color: #30b868;
 }
 /* main style */
+/* navbar */
 nav{
     background-color: #ffffff;
     display: flex;
@@ -39,6 +41,7 @@ nav ul{
     font-size: 16px;
     line-height: 152%;
 }
+/* banner */
 .banner{
     background: url(./assets/hero-bg.png);
     background-size: cover;
@@ -51,15 +54,46 @@ nav ul{
     text-align: center;
     align-items: center;
 }
-.banner h3{
+.banner .hd{
     background-color: #ffffff;
-    color: #30B868;
-    font-size: 16px;
     border-radius: 100px;
     padding: 8px 12px;
     max-width: 230px;
     margin: 0px auto;
-    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .circle{
+    position: relative;
+}
+.banner .c1, .c2, .c3{
+    background-color: #30B868;
+    border-radius: 50%;
+    position: absolute;
+}
+.c1{
+    opacity: 30%;
+    width: 16px;
+    height: 16px;
+}
+.banner .c2{
+    opacity: 50%;
+    width: 12px;
+    height: 12px;
+    left: 2px;
+    top: 2px;
+}
+.banner .c3{
+    width: 8px;
+    height: 8px;
+    left: 4px;
+    top: 4px;
+}
+.banner h3{
+    background-color: #ffffff;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
 }
 .banner h1{
     opacity: 90%;
@@ -74,7 +108,6 @@ nav ul{
 .banner h4{
     color: #ffffff;
     font-size: 18px;
-    font-weight: regular;
     line-height: 24px;
 }
 .banner-button{
@@ -96,6 +129,7 @@ nav ul{
     background: #ffffff;
     color: #30b868;
 }
+/* Notes section */
 #st2{
     padding: 0px 120px;
     text-align: center;
@@ -150,7 +184,7 @@ nav ul{
     color: #627382;
 }
 
-
+/* Briain section */
 .brain{
     display: flex;
     justify-content: center;
@@ -184,4 +218,53 @@ nav ul{
 }
 .brain ul{
     list-style: none;
+}
+/* early access section */
+.early-access{
+    margin: 0px  120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+.early-access h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.early-access p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.early-access button{
+    margin: 16px 0px;
+}
+
+/* footer section */
+.foot-card{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px ;
+    margin: 0px auto;
+    text-align: center;
+}
+.connect{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.foot-card .social{
+    color: #ffffff;
+}
+.social h4{
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.social .icons .ai{
+    margin: 0px 16px;
+}
+.foot-card p{
+    color: #ffffff;
+    margin-top: 30px;
 }
